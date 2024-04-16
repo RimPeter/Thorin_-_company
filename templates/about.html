@@ -1,91 +1,89 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% for number in list_of-numbers %}
-    <p>{{ number }}</p>
-{% endfor %}
+    {{ company[1]["name"] }}
 
-<h2>{{ page_title }}</h2>
-<p>
-    In the vivid tapestry of fantasy literature, Thorin and his company stand out as a memorable ensemble from J.R.R.
-    Tolkien's world. Thorin Oakenshield, the stoic and courageous leader, heads this diverse group of dwarves on a
-    perilous quest to reclaim their ancestral home from the clutches of the dragon Smaug. Each member of the company
-    brings unique skills and traits to their journey, from the wise and observant Balin to the young and eager Fíli and
-    Kíli. Together, they navigate the treacherous landscapes of Middle-earth, forging alliances and confronting enemies,
-    driven by a shared dream of restoring their lost kingdom under the Lonely Mountain. Their story is a compelling
-    blend of adventure, loyalty, and the pursuit of a homeland, making them enduring figures in the realm of epic
-    fantasy.
-</p>
+    <h2>{{ page_title }}</h2>
+    <p>
+        In the vivid tapestry of fantasy literature, Thorin and his company stand out as a memorable ensemble from J.R.R.
+        Tolkien's world. Thorin Oakenshield, the stoic and courageous leader, heads this diverse group of dwarves on a
+        perilous quest to reclaim their ancestral home from the clutches of the dragon Smaug. Each member of the company
+        brings unique skills and traits to their journey, from the wise and observant Balin to the young and eager Fíli and
+        Kíli. Together, they navigate the treacherous landscapes of Middle-earth, forging alliances and confronting enemies,
+        driven by a shared dream of restoring their lost kingdom under the Lonely Mountain. Their story is a compelling
+        blend of adventure, loyalty, and the pursuit of a homeland, making them enduring figures in the realm of epic
+        fantasy.
+    </p>
 
-<div class="row featurette">
-    <div class="col-md-7">
-        <h3>Thorin Oakenshield</h3>
-        <p>
-            Thorin Oakenshield, a central figure in J.R.R. Tolkien's "The Hobbit," is a dwarf prince and a pivotal
-            leader, embarking on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Born
-            into the royal line of Durin, Thorin is the grandson of King Thrór and the son of Thráin II, making him the
-            rightful heir to the throne of Erebor. His epithet "Oakenshield" is derived from an incident during the
-            Battle of Azanulbizar, where he used a branch of oak as a shield after his original was broken.
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>Thorin Oakenshield</h3>
+            <p>
+                Thorin Oakenshield, a central figure in J.R.R. Tolkien's "The Hobbit," is a dwarf prince and a pivotal
+                leader, embarking on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Born
+                into the royal line of Durin, Thorin is the grandson of King Thrór and the son of Thráin II, making him the
+                rightful heir to the throne of Erebor. His epithet "Oakenshield" is derived from an incident during the
+                Battle of Azanulbizar, where he used a branch of oak as a shield after his original was broken.
 
-            Thorin is depicted as a complex character, driven by a strong sense of duty, honor, and a deep longing to
-            restore his kingdom to its former glory. His leadership qualities are evident in his ability to rally his
-            fellow dwarves and inspire loyalty, though his noble pursuit is often clouded by a growing obsession with
-            the reclaimed treasure, which leads to moments of stubbornness and pride.
+                Thorin is depicted as a complex character, driven by a strong sense of duty, honor, and a deep longing to
+                restore his kingdom to its former glory. His leadership qualities are evident in his ability to rally his
+                fellow dwarves and inspire loyalty, though his noble pursuit is often clouded by a growing obsession with
+                the reclaimed treasure, which leads to moments of stubbornness and pride.
 
-            Throughout "The Hobbit," Thorin's character develops significantly. Initially, he is wary and dismissive of
-            Bilbo Baggins, the hobbit chosen by the wizard Gandalf to join their quest. However, as their journey
-            progresses, Thorin grows to respect Bilbo's courage and ingenuity, recognizing his essential role in the
-            success of their mission.
+                Throughout "The Hobbit," Thorin's character develops significantly. Initially, he is wary and dismissive of
+                Bilbo Baggins, the hobbit chosen by the wizard Gandalf to join their quest. However, as their journey
+                progresses, Thorin grows to respect Bilbo's courage and ingenuity, recognizing his essential role in the
+                success of their mission.
 
-            Thorin's tragic flaw is his susceptibility to the "dragon-sickness" — a greed that overtakes him as he
-            reclaims the treasure of Erebor. This greed strains his relationships with his allies and nearly leads to
-            war against the Men of Lake-town and the Elves of Mirkwood. It is only towards the end of his life, after a
-            series of dramatic and humbling events, that Thorin comes to realize the true value of friendship and honor
-            over wealth. His final moments are marked by reconciliation and regret, as he seeks forgiveness from those
-            he wronged.
+                Thorin's tragic flaw is his susceptibility to the "dragon-sickness" — a greed that overtakes him as he
+                reclaims the treasure of Erebor. This greed strains his relationships with his allies and nearly leads to
+                war against the Men of Lake-town and the Elves of Mirkwood. It is only towards the end of his life, after a
+                series of dramatic and humbling events, that Thorin comes to realize the true value of friendship and honor
+                over wealth. His final moments are marked by reconciliation and regret, as he seeks forgiveness from those
+                he wronged.
 
-            Thorin's legacy is one of a noble leader who, despite his faults, plays a crucial role in the resurgence of
-            the Dwarven presence in Middle-earth, setting the stage for the events that unfold in "The Lord of the
-            Rings." His story serves as a poignant reminder of the dangers of letting pride and material desires
-            override more noble pursuits.
-        </p>
+                Thorin's legacy is one of a noble leader who, despite his faults, plays a crucial role in the resurgence of
+                the Dwarven presence in Middle-earth, setting the stage for the events that unfold in "The Lord of the
+                Rings." His story serves as a poignant reminder of the dangers of letting pride and material desires
+                override more noble pursuits.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="static/img/Thorin_Oakenshield.jpg" alt="">
+        </div>
     </div>
-    <div class="col-md-5">
-        <img src="static/img/Thorin_Oakenshield.jpg" alt="">
-    </div>
-</div>
-<div class="row featurette">
-    <div class="col-md-5">
-        <img src="static/img/Fili_and_Kili.jpg" alt="">
-    </div>
-    <div class="col-md-7">
-        <h3>Fíli and Kíli</h3>
-        <p>
-            Fíli and Kíli are two of the youngest and most vibrant characters in J.R.R. Tolkien's "The Hobbit." They are
-            brothers, nephews of Thorin Oakenshield, and key members of the company of dwarves that set out to reclaim
-            the Lonely Mountain from the dragon Smaug. Born in the Blue Mountains, Fíli and Kíli are the sons of Dís,
-            Thorin's sister, making them direct descendants of the royal line of Durin.
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="static/img/Fili_and_Kili.jpg" alt="">
+        </div>
+        <div class="col-md-7">
+            <h3>Fíli and Kíli</h3>
+            <p>
+                Fíli and Kíli are two of the youngest and most vibrant characters in J.R.R. Tolkien's "The Hobbit." They are
+                brothers, nephews of Thorin Oakenshield, and key members of the company of dwarves that set out to reclaim
+                the Lonely Mountain from the dragon Smaug. Born in the Blue Mountains, Fíli and Kíli are the sons of Dís,
+                Thorin's sister, making them direct descendants of the royal line of Durin.
 
-            **Fíli**, the elder of the two, is often described as having long, golden hair and a blue cloak. He is
-            considered one of the best fighters in the group. Fíli is responsible and cautious, often taking a
-            leadership role, especially in guiding and protecting his younger brother. His skills with weapons,
-            particularly in archery and sword fighting, are noted throughout their adventures.
+                **Fíli**, the elder of the two, is often described as having long, golden hair and a blue cloak. He is
+                considered one of the best fighters in the group. Fíli is responsible and cautious, often taking a
+                leadership role, especially in guiding and protecting his younger brother. His skills with weapons,
+                particularly in archery and sword fighting, are noted throughout their adventures.
 
-            **Kíli**, younger than Fíli by five years, shares his brother's adventurous spirit and bravery. He is
-            described as having sharp eyesight, which makes him a good archer. Kíli's personality is more playful and
-            light-hearted compared to Fíli's more serious demeanor. This difference adds a layer of depth to their
-            relationship, showcasing a balance of youthfulness and responsibility.
+                **Kíli**, younger than Fíli by five years, shares his brother's adventurous spirit and bravery. He is
+                described as having sharp eyesight, which makes him a good archer. Kíli's personality is more playful and
+                light-hearted compared to Fíli's more serious demeanor. This difference adds a layer of depth to their
+                relationship, showcasing a balance of youthfulness and responsibility.
 
-            Both brothers play significant roles in the journey to the Lonely Mountain, where their skills, bravery, and
-            brotherly bond are put to the test. They are integral in scouting missions and in several key battles
-            against orcs and other foes. Their close relationship with each other and their uncle Thorin highlights
-            themes of family loyalty and courage.
+                Both brothers play significant roles in the journey to the Lonely Mountain, where their skills, bravery, and
+                brotherly bond are put to the test. They are integral in scouting missions and in several key battles
+                against orcs and other foes. Their close relationship with each other and their uncle Thorin highlights
+                themes of family loyalty and courage.
 
-            Tragically, both Fíli and Kíli meet their end during the Battle of Five Armies, defending their wounded
-            uncle Thorin from enemy forces. Their deaths are poignant in the narrative, emphasizing the harsh realities
-            of their quest and the sacrifices made for their cause. They die as heroes, exemplifying the courage and
-            spirit of the dwarf race. Their demise deeply affects Thorin, who regrets the conflict over gold that led to
-            such losses, and they are mourned as symbols of the younger generation lost to the ravages of greed and war.
-        </p>
-    </div>
-    {% endblock %}
+                Tragically, both Fíli and Kíli meet their end during the Battle of Five Armies, defending their wounded
+                uncle Thorin from enemy forces. Their deaths are poignant in the narrative, emphasizing the harsh realities
+                of their quest and the sacrifices made for their cause. They die as heroes, exemplifying the courage and
+                spirit of the dwarf race. Their demise deeply affects Thorin, who regrets the conflict over gold that led to
+                such losses, and they are mourned as symbols of the younger generation lost to the ravages of greed and war.
+            </p>
+        </div>
+        {% endblock %}

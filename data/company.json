@@ -1,0 +1,68 @@
+
+[
+    {
+        "name": "Thorin Oakenshield",
+        "description": "The leader of the group and heir to the Kingdom under the Mountain. Thorin is a strong, authoritative figure with a deep sense of honor and justice, seeking to reclaim his homeland from the dragon Smaug.",
+        "image_source": ""
+    },
+    {
+        "name": "Balin",
+        "description": "An older, wise dwarf who serves as Thorin's chief advisor. Balin is distinguished by his white beard and thoughtful demeanor, providing wisdom and counsel throughout their journey.",
+        "image_source": ""
+    },
+    {
+        "name": "Dwalin",
+        "description": "Balin’s brother, known for his formidable fighting skills and loyalty to Thorin. Dwalin is often seen wielding a battle axe and is one of the fiercest warriors in the group.",
+        "image_source": ""
+    },
+    {
+        "name": "Fíli",
+        "description": "One of the youngest dwarves, nephew to Thorin. Fíli is known for his sharp shooting with a bow and arrow. He and his brother Kíli often inject a youthful, adventurous spirit into the company.",
+        "image_source": ""
+    },
+    {
+        "name": "Kíli",
+        "description": "Fíli’s brother and the youngest member of the company. Kíli is bold and charismatic, also skilled in archery, and plays a significant role in the camaraderie and morale of the group.",
+        "image_source": ""
+    },
+    {
+        "name": "Dori",
+        "description": "A strong dwarf who often ends up carrying the burden, literally and figuratively. Dori is noted for his strength and reliability, often tasked with looking out for the well-being of others, especially the wizard Gandalf’s favorite, Bilbo Baggins.",
+        "image_source": ""
+    },
+    {
+        "name": "Nori",
+        "description": "Known for his peculiar way with secrets and locks, Nori is a bit of a rogue within the group, often involved in scouting and stealth tasks.",
+        "image_source": ""
+    },
+    {
+        "name": "Ori",
+        "description": "A scribe among the dwarves, Ori often documents the journey. He is characterized by his quieter, more scholarly nature compared to his more warrior-like brethren.",
+        "image_source": ""
+    },
+    {
+        "name": "Óin",
+        "description": "An older dwarf, brother to Glóin, and skilled in fire-making. Óin plays a crucial role in the survival of the group in hostile environments.",
+        "image_source": ""
+    },
+    {
+        "name": "Glóin",
+        "description": "Father of Gimli (who appears in 'The Lord of the Rings'), Glóin is concerned with the financial aspects of the expedition to reclaim the Lonely Mountain and is a fierce warrior in his own right.",
+        "image_source": ""
+    },
+    {
+        "name": "Bifur",
+        "description": "Distinguished by a piece of orc axe stuck in his skull, which causes him some confusion at times. Bifur often communicates only in Khuzdul, the dwarven language.",
+        "image_source": ""
+    },
+    {
+        "name": "Bofur",
+        "description": "Bifur’s cousin, known for his good humor and optimism. Bofur wears a distinctive yellow hood and plays the flute.",
+        "image_source": ""
+    },
+    {
+        "name": "Bombur",
+        "description": "Bofur’s brother, notable for his immense size and appetite. Despite his bulk, Bombur is an essential part of the company, often providing comic relief.",
+        "image_source": ""
+    }
+]
